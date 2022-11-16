@@ -1,0 +1,27 @@
+1. reads bytes and decodes them into characters using a charset
+
+2. More bytes may be read ahead from the underlying stream.
+For top efficiency wrap InputStreamReader within a BufferedReader.
+
+3. readLine(), String
+
+4. Prints a string and then terminates it. It returns nothing
+
+5. creates a server socket which is bound to the specified port
+
+6. Listens for a connection to be made to the socket and accepts it.
+Returns new socket.
+
+7. Socket(String host, int port)
+
+8. Returns input stream for a socket
+
+9.  getOutputStream()
+
+10. The current time it was allocated
+
+11. Date date = new Date();
+    System.out.println(date.toString());
+                  
+12. The port must always be known, but the host is optional.
+

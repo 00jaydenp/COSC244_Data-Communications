@@ -1,0 +1,28 @@
+1. Declare a class to be a subclass of thread thats overrited the run method of Thread or
+declare a class that implements the runnable interface which implements run
+
+2. run()
+
+3. start()
+
+4. Server code where we make serversocket to our catch 11-15
+
+5.Creates threads for handling I/O to and from InputStream and OutputStream
+
+6. It does not matter because they are running simultaneously
+
+7. public class Client{
+          public static void main(String [] args){
+                 try{
+                        int port = Integer.parseInt(args[0]);
+                        Socket socket = new Socket(args[1], port);
+                        System.err.println("Connected to: " + args[1] + " on port: " + port);
+                        new ReadWriteThread(System.in, socket.getOutputStream()).start();
+                        new ReadWriteThread(socket.getInputStream(), System.out).start();
+                        }
+                       }
+                      }
+                     }
+8. Threads sometimes wakeup while others are running and the CPU gives control to the
+waking thread before changing back to the running thread 
+                          

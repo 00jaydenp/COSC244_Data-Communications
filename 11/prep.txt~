@@ -1,0 +1,18 @@
+1. print the input to the output stream
+
+2.Goes to sockets output stream
+
+3. allows the id to be printed when a ClientHandler object is sent to the print function
+
+4. The client number is not recycled as the count is constantly inremented and added to id variable. Id is not inremented or decremented to account for this.
+
+5. Line 13, 20- 24
+
+6.10 threads.
+
+7.
+1 Main thread - starts server that listens for new connections
+3 client threads - send a welcoming message, then read input and send
+The 3 client threads starts 2 threads, one that gets input and sends to scoket
+another for eading output from socket and writing to stdout.
+

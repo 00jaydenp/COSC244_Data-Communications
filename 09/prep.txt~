@@ -1,0 +1,27 @@
+1. Beacause if we don't its possible for a thread to modify clients in an unpredictable way
+
+2. start() line 15
+
+3. 32-37
+
+4. ChatServer started
+
+5. Accepted connection from client 0
+
+6. Welcome you are client 0
+
+7.Accepted connection from client 1
+
+8. Welcoem you are client 1
+
+9. client_1: Hello from client 1
+
+10. same
+
+11. sending 'message' from client 1 to [client0, client1, client2]
+
+12. Client_3 has closed connection
+
+13. client_1: hey
+
+14. client3

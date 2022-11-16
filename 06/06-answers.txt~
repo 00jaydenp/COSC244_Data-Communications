@@ -1,0 +1,19 @@
+1. ^
+2. meant for reading streams of raw bytes such as image data
+3. FileInputStream fileinput = new FileInputStream(filename.txt);
+4. read() method that returns an int
+5. meant for writing streams of raw bytes such as image data
+6. FileOutputStream() fileoutput = new FileOutputStream(filename.txt);
+7. write(int b);
+8. close();
+9. public class printWords{
+          public static void main(String[] args){
+                 Scanner sc = new Scanner(System.in);
+                 String word = sc.next();
+                 int num = sc.next();
+                 for(int i = 0; i < num; i++){
+                         System.out.print(word + " ");
+                         }
+                   }
+}
+                   
